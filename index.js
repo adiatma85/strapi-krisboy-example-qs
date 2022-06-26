@@ -41,7 +41,7 @@ const katalogRequestExample1 = {
     // Penjelasan, karena kategory itu memiliki subattribute nama, maka struckturnya seperti ini
     tags: {
       name: {
-        $in: ['Kuliah', 'Gaming'],
+        $in: ['Kuliah', 'Gaming'], // Contoh lain menunggu
       }
     },
     price: {
